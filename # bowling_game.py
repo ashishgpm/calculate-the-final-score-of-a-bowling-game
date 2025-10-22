@@ -38,7 +38,7 @@ If the input is incorrect (eg. more than 10 pins in a frame without strike), it 
 
 Example:
 Input Rolls → [1,4, 4,5, 6,4, 5,5, 10, 0,1, 7,3, 6,0, 10, 2,6]
-Output → Final Score: 133'''
+Output → Final Score: 109'''
 
 
 import sys
@@ -232,3 +232,4 @@ if __name__ == "__main__":
         unittest.main(argv=['first-arg-is-ignored'], exit=False)
     else:
         main()
+
